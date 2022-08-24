@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Run Images'){
             steps {
-                sh 'sudo docker rm -f $(docker ps -a -q) || true && sudo docker pull linothomas/flask-simple-webservice:latest && sudo docker run -d -p 80:5000 --name flask-simple-webservice linothomas/flask-simple-webservice:latest'
+                sh 'sudo docker rm -f $(sudo docker ps -a -q) || true && sudo docker pull linothomas/flask-simple-webservice:latest && sudo docker run -d -p 80:5000 --name flask-simple-webservice linothomas/flask-simple-webservice:latest'
             }
         }
 }
