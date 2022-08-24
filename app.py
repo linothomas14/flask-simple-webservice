@@ -13,7 +13,7 @@ def hello_world():
         'full_name' : "Yulyano Thomas Djaya",
         'nick_name' : "Lino",
         'last_education' : "Gunadarma University",
-        'location' : "Bogor"
+        'location' : "Bogor, Indonesia"
     }
     res = {
         'msg' : message,
