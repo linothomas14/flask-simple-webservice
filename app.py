@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     message = {
-        'note' : 'Lino lagi belajar jenkins uhuy',
+        'note' : 'Lino lagi belajar jenkins uhuy test cronjob * * * * *',
     }
     value = {
         
