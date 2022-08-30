@@ -14,6 +14,7 @@ def hello_world():
         'nick_name' : "Lino",
         'last_education' : "Gunadarma University",
         'location' : "Bogor"
+	'last edit' : "First day: Intern"
     }
     res = {
         'msg' : message,
